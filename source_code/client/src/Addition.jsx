@@ -19,7 +19,7 @@ export class Addition extends React.Component {
     handleSubmit = (event) => {
 
         event.preventDefault(); 
-        const url = `http://localhost:9000/add/${this.state.firstNumber}/and/${this.state.secondNumber}`
+        const url = `http://3.82.209.124:9000/add/${this.state.firstNumber}/and/${this.state.secondNumber}`
         fetch(url)
             .then((result) => result.json())
             .then(result => {

@@ -11,8 +11,8 @@ class MyFirstComponent extends React.Component{
     render(){
         return (
             <>
-        <div>
-            <NavBar/>
+        <div> 
+            <NavBar/> 
             <Description/>
             <Addition/>
             <News/>
